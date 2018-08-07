@@ -1,0 +1,85 @@
+/* global styles */
+body {
+  position: relative;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/* navbar */
+.navbar-default {
+  background: #000000;
+}
+
+.navbar {
+  border: none;
+}
+
+
+.about {
+  background-image: url("../img/city-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio {
+  background-image: url("../img/Dawn.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  background-image: url("../img/city-sunrise.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* footer */
+.fab {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-social a {
+  color:#c3500f;
+}
+
+.footer-social a:hover {
+  color:#ffffff;
+}
+
+.footer-section {
+  background: #000000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+
+
+/* Small Screens */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Screens */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Screens */
+@media only screen and (min-width : 1200px) {
+}
